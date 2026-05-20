@@ -1,0 +1,7 @@
+| Test ID | Scenario                           | Expected Result     |
+| ------- | ---------------------------------- | ------------------- |
+| FT001   | Valid fund transfer                | Transfer successful |
+| FT002   | Transfer with insufficient balance | Error message       |
+| FT003   | Transfer with zero amount          | Validation message  |
+| FT004   | Transfer with negative amount      | Transfer blocked    |
+| FT005   | Empty amount field                 | Validation message  |
