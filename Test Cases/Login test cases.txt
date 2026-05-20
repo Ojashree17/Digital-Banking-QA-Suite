@@ -1,0 +1,7 @@
+| Test ID | Scenario         | Expected Result           |
+| ------- | ---------------- | ------------------------- |
+| TC001   | Valid login      | User logs in successfully |
+| TC002   | Invalid password | Error message displayed   |
+| TC003   | Empty username   | Validation message        |
+| TC004   | Empty password   | Validation message        |
+| TC005   | Invalid username | Login denied              |
